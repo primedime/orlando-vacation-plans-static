@@ -96,6 +96,9 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+.content-body {
+  padding: 1.375rem 0.625rem;
+}
 
 /* ==========================================================================
    Variables
@@ -103,7 +106,22 @@ textarea {
 /* Colors */
 
 :root {
-  --main-color: black;
+  --purple: #3d348b;
+  --light-purple: #7e548d;
+  --orange: #f18701;
+  --plain-text: #242930;
+  --white: #fff;
+  --black: #000;
+  --soft-gray: #989ba0;
+  --dark-gray: #6e737a;
+
+  --pinterest-red: #bd081c;
+  --twitter-blue: #1da1f2;
+  --facebook-blue: #3b5998;
+
+  --gray-border: #e5e6e9;
+  --gray-background: #f3f4f6;
+  --gray-title: #454c58;
 }
 
 /* Typography */
@@ -125,10 +143,31 @@ h6 {
 
 p {
   font-size: 1rem;
+  color: var(--plain-text);
+  line-height: 1.63;
+}
+
+.p-small {
+  font-size: 0.875rem;
 }
 
 h1 {
   font-size: 1.375rem;
+}
+
+h2 {
+  font-size: 1.375rem;
+  color: var(--purple);
+}
+
+h3 {
+  font-size: 1rem;
+  color: var(--plain-text);
+}
+
+h4 {
+  font-size: 1.125rem;
+  color: var(--white);
 }
 
 /* ==========================================================================
@@ -138,6 +177,9 @@ h1 {
 /* ==========================================================================
    Footer
    ========================================================================== */
+footer {
+  padding: 0.625rem 1rem;
+}
 
 /* ==========================================================================
    Helper classes
